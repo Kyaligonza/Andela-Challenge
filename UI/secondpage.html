@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="utf-8">
+	<title>"User Projects Page"</title>
+	<meta name ="viewport" content = "width=device-width", initial-scale = 1.0>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header>
+		<a href "login.html" class="header-logo">ProTool</a>
+		<nav>
+			<ul>
+				<li><button onclick="document.getElementById('new-project').style.display='block'">CREATE</button></li>
+				<li><button onclick="document.getElementById('old-projects').style.display='block'">PROJECTS</button></li>
+			</ul>
+		</nav>
+		<a href "firstpage.html" class="header-signup"> Logout</a>
+				
+	</header>
+	<main>
+		<section class="main-design">
+		    <h1> ProTool Projects </h1>
+		    <h2> Your requisitions</h2>
+            <div id="new-project" class="project">
+  
+                <form class="project-content animate" action="####">
+                	<div class="imgcontainer">
+                        <span onclick="document.getElementById('new-project').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <h1 style="text-align:center">ProTool New Project</h1>
+                    </div>
+
+                    <div class="container">
+                        <input type="text" placeholder="Enter Username" name="uname">
+                        <input type="text" placeholder="Project Name" name="pron"> 
+                        <input type="text" placeholder="Enter Description" name="dscr">  
+                        <input type="text" placeholder="Enter Budget" name="bdgt">   
+                        <input type="text" placeholder="Enter Status" name="status">    
+                        <button type="submit">submit</button>
+
+                    </div>
+                </form>
+    
+            </div>
+            <div id="old-projects" class="userprojects">
+  
+                <form class="project-content animate" action="###">
+
+                	<div class="imgcontainer">
+                        <span onclick="document.getElementById('old-projects').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <h1 style="text-align:center">ProTool User Projects</h1>
+                    </div>
+
+                    <div class="container">           
+                        <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Project</th>
+                                <th>Description</th>
+                                <th>Budget</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John</td>
+                                <td>Aircrafts</td>
+                                <td>New Boeing</td>
+                                <td>$100k</td>
+                                <td>Open</td>
+                            </tr>
+                            <tr>
+                                <td>John</td>
+                                <td>Shoes</td>
+                                <td>Adidas</td>
+                                <td>$30k</td>
+                                <td>Approved</td>
+                            </tr>
+                            <tr>
+                                <td>John</td>
+                                <td>Phones</td>
+                                <td>Nokias</td>
+                                <td>$20k</td>
+                                <td>Rejected</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+
+                </form>
+            </div>
+		</section>
+
+	</main>
+
+</body>
+</html>
+
