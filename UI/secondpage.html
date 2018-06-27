@@ -9,50 +9,54 @@
 </head>
 <body>
 	<header>
-		<a href "login.html" class="header-logo">ProTool</a>
-		<nav>
-			<ul>
-				<li><button onclick="document.getElementById('new-project').style.display='block'">CREATE</button></li>
-				<li><button onclick="document.getElementById('old-projects').style.display='block'">PROJECTS</button></li>
-			</ul>
-		</nav>
-		<a href "firstpage.html" class="header-signup"> Logout</a>
+        <a href "Firstpage.html" class="header-logo">ProTool</a>
+        <nav>
+            <ul>
+                <li><a href "Firstpage.html">Home</a></li>
+                <li><a href "contact.html">Contact</a></li>
+            </ul>
+        </nav>
+		<a href "firstpage.html" class="header-signup"> LOGOUT</a>
 				
 	</header>
 	<main>
 		<section class="main-design">
 		    <h1> ProTool Projects </h1>
 		    <h2> Your requisitions</h2>
+            <button onclick="document.getElementById('new-project').style.display='block'">CREATE</button>
+            
             <div id="new-project" class="project">
   
                 <form class="project-content animate" action="####">
                 	<div class="imgcontainer">
                         <span onclick="document.getElementById('new-project').style.display='none'" class="close" title="Close PopUp">&times;</span>
-                        <h1 style="text-align:center">ProTool New Project</h1>
                     </div>
 
                     <div class="container">
-                        <input type="text" placeholder="Enter Username" name="uname">
-                        <input type="text" placeholder="Project Name" name="pron"> 
-                        <input type="text" placeholder="Enter Description" name="dscr">  
-                        <input type="text" placeholder="Enter Budget" name="bdgt">   
-                        <input type="text" placeholder="Enter Status" name="status">    
+                        Project Name:<br>
+                        <input type="text" placeholder="Project Name" name="pron"><br>
+                        Description:<br>
+                        <input type="text" placeholder="Enter Description" name="dscr"><br>
+                        Budget:<br>
+                        <input type="text" placeholder="Enter Budget" name="bdgt"><br>   
+                        Status:<br>
+                        <input type="text" placeholder="Enter Status" name="status">   
                         <button type="submit">submit</button>
 
                     </div>
                 </form>
     
             </div>
+            <button onclick="document.getElementById('old-projects').style.display='block'">PROJECTS</button>
             <div id="old-projects" class="userprojects">
   
                 <form class="project-content animate" action="###">
 
                 	<div class="imgcontainer">
                         <span onclick="document.getElementById('old-projects').style.display='none'" class="close" title="Close PopUp">&times;</span>
-                        <h1 style="text-align:center">ProTool User Projects</h1>
                     </div>
 
-                    <div class="container">           
+                    <div>           
                         <table class="table">
                         <thead>
                             <tr>

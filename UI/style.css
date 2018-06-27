@@ -119,7 +119,7 @@ header {
 }
 header .header-logo {
     font-family: garamond;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 900;
     color:#111;
     text-transform: none;
@@ -134,7 +134,7 @@ header .header-logo {
 }
 header nav ul {
     display: block;
-    margin: 40px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     float:left;
     width:fit-content;
 
@@ -149,27 +149,29 @@ header nav ul li{
 }
 header nav ul li a{
     font-family: garamond;
-    font-size: 16px;
-    color:#111;
+    font-size: 26px;
+    color:#000080;
+    font-weight: 550;
     line-height: 60px;
 }
 .header-signup{
     display:block;
     font-family: garamond;
-    font-size: 16px;
-    color:#111;
+    font-size: 20px;
+    color:white;
+    background-color: tomato;
     line-height: 60px;
-    border: 3px solid #111;
     float:right;
     margin: 15px 10px;
     padding:0px 30px;
+    font-weight: 900;
 }
 /*First Page*/
 
 .main-design {
     width: 100%;
     height:calc(100vh - 100px);
-    background-image: url('website-image.jpg');
+    background-image: url('andelapic.jpg');
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
@@ -193,7 +195,7 @@ header nav ul li a{
 
 }
 .main-design h2 {
-    font-family: garamond;
+    font-family: calibri;
     font-size: 40px;
     font-weight:100;
     font-style:italic;
@@ -204,7 +206,7 @@ header nav ul li a{
 }
 /* Full-width input fields new style for login button*/
 input[type=text], input[type=password] {
-    width: 90%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 26px;
     display: inline-block;
@@ -213,13 +215,13 @@ input[type=text], input[type=password] {
     font-size:16px;
 }
 .container {
-      width: 90%;
-    padding: 24px 0px;
-    margin: 8px 26px;
+    width: 50%;
+    padding: 24px 10px;
+    margin: 8px 0px 26px 26px;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    font-size:40px; 
+    font-size:20px; 
     background-color: #f3f3f3;
 }
 .table {
@@ -228,21 +230,21 @@ input[type=text], input[type=password] {
     margin: 10px 10px 10px 0px;
     border: none;
     cursor: pointer;
-    width: 90%;
+    width: 50%;
     font-size:20px;
 
 }
-/* Set a style for all buttons/ 
+/* Set a style for all buttons*/ 
 button {
-    background-color: #4CAF50;
+    background-color:#FF5733;
     color: white;
     padding: 14px 20px;
     margin: 8px 26px;
     border: none;
     cursor: pointer;
-    width: 90%;
+    width: 10%;
     font-size:20px;
-}*/
+}
 button:hover {
     opacity: 0.8;
 }
@@ -254,8 +256,8 @@ button:hover {
     position: relative;
 }
 .icon {
-    width: 200px;
-    height:200px;
+    width: 20px;
+    height:20px;
     border-radius: 50%;
 }
 
@@ -284,11 +286,11 @@ button:hover {
 /* The Close Button (x) */
 .close {
     position: absolute;
-    right: 25px;
+    left: 10px;
     top: 0;
     color: #000;
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 900;
 }
 .close:hover,.close:focus {
     color: red;
