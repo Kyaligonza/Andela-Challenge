@@ -204,6 +204,16 @@ header nav ul li a{
     text-align:center;
     text-shadow:2px 2px 8px #111;
 }
+.main-design h3 {
+    font-family: calibri;
+    font-size: 10px;
+    font-weight:100;
+    font-style:italic;
+    line-height: 80px
+    color:#fff;
+    text-align:center;
+    text-shadow:2px 2px 8px #111;
+}
 /* Full-width input fields new style for login button*/
 input[type=text], input[type=password] {
     width: 50%;
@@ -215,7 +225,7 @@ input[type=text], input[type=password] {
     font-size:16px;
 }
 .container {
-    width: 50%;
+    width: 60%;
     padding: 24px 10px;
     margin: 8px 0px 26px 26px;
     display: inline-block;
@@ -238,8 +248,8 @@ input[type=text], input[type=password] {
 button {
     background-color:#FF5733;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 26px;
+    padding: 14px 6px;
+    margin: 8px 0px 0px 26px;
     border: none;
     cursor: pointer;
     width: 10%;
